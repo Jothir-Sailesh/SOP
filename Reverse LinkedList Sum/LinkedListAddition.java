@@ -6,7 +6,7 @@ public class LinkedListAddition {
         ListNode current = dummy;
         int carry = 0;
 
-
+        
         while (l1 != null || l2 != null || carry > 0) {
 
             int sum = carry;
@@ -53,6 +53,12 @@ public class LinkedListAddition {
         l2.next.next = new ListNode(4);
 
         LinkedListAddition solution = new LinkedListAddition();
-        printList(solution.addTwoNumbers(l1, l2));
+        printList(solution.addTwoNumbers(l1, l2)); 
     }
 }
+
+
+
+/*  Program Output:  7 0 8
+    Expected Output: 7 0 8
+*/
